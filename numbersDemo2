@@ -1,0 +1,36 @@
+
+import java.util.Scanner;
+public class numbersDemo2 {
+    
+    public static void main(String[] args) {
+    Scanner tshego=new Scanner(System.in);
+    System.out.println("enter the first number");
+    int number1=tshego.nextInt();
+     System.out.println("enter the second number");
+    int number2=tshego.nextInt();
+    
+    displayTwiceNumber(number1);
+    displayTwiceNumber(number2);
+    
+    displayNumberPlusFive(number1);
+    displayNumberPlusFive(number2);
+    
+    displayNumberSquared(number1);
+    displayNumberSquared(number2);
+    
+
+
+    }
+  public static void displayTwiceNumber(int num){
+    System.out.println(num +"twice is"+ num *2);
+    }
+    public static void displayNumberPlusFive(int num){
+    System.out.println(num + "plus five is "+num+5);
+    }
+    public static void displayNumberSquared(int num){ 
+    System.out.println(num + "squared is"+ num* num);
+    }
+            
+    
+            
+}
